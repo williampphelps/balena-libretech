@@ -10,3 +10,19 @@
 	path = contracts
 	url = https://github.com/balena-io/contracts.git
 	branch = master
+[submodule "layers/layers/meta-meson"]
+	path = layers/layers/meta-meson
+	url = https://github.com/superna9999/meta-meson.git
+	branch = kirkstone
+[submodule "layers/meta-meson"]
+	path = layers/meta-meson
+	url = https://github.com/superna9999/meta-meson.git
+	branch = kirkstone
+[submodule "layers/meta-openembedded"]
+	path = layers/meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
+	branch = kirkstone
+[submodule "layers/poky"]
+	path = layers/poky
+	url = https://github.com/balena-os/poky.git
+	branch = kirkstone
