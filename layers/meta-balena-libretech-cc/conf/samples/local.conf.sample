@@ -1,7 +1,5 @@
 #MACHINE ?= "lepotato"
 MACHINE ?= "libretech-cc"
-KERNEL_IMAGETYPE = "Image.gz"
-KERNEL_BOOTCMD = "booti"
 BALENA_BOOT_SIZE = "81920"
 # Parallelism Options
 BB_NUMBER_THREADS ?= "${@oe.utils.cpu_count()}"

@@ -1,1 +1,1 @@
-inherit kernel-balena deploy
+inherit kernel-balena
