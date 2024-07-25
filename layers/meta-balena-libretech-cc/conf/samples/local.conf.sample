@@ -1,6 +1,6 @@
 #MACHINE ?= "lepotato"
 MACHINE ?= "libretech-cc"
-BALENA_BOOT_SIZE = "81920"
+
 # Parallelism Options
 BB_NUMBER_THREADS ?= "${@oe.utils.cpu_count()}"
 PARALLEL_MAKE ?= "-j ${@oe.utils.cpu_count()}"
